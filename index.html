@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <!-- for stylesheet code -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="TO-DO LIST">
+        <h1>TO-DO LIST</h1>
+        </div>
+
+        <!-- for input text -->
+        <div class="row">
+        <input type="text" id="input-box" placeholder="Add Your Task">
+        <button onclick="addtask()" id="btn">Add Task</button>
+        </div>
+
+        <!-- for show data tasklist -->
+        <ul class="task-list" id="tasklist"></ul>
+
+        <!-- for delete all data button -->
+        <button id="deletebutton">Delete All Data From LocalStorage</button>
+    </div>
+
+   <!-- for javascript code -->
+    <script src="javascript.js"></script>
+</body>
+</html>

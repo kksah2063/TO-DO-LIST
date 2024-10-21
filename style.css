@@ -1,0 +1,87 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.container{
+    background-color: aqua;
+    padding: 33px;
+    width:450px;
+    text-align: center;
+    margin-top:15%;
+    margin-left: 33%;
+    border-radius: 10px;
+}
+
+
+h1{
+    color: darkred;
+    text-align: center;
+}
+
+/* for input text  */
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    padding-left: left;
+    margin-bottom: 20px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    color: green;
+    font-size: 16px;
+}
+#btn{
+    border: none;
+    outline: none;
+    text-align:center;padding: 16px 50px;
+    background:#ff5945 ;
+    color:#fff ;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+/* for showdata task list */
+
+ul {
+    list-style: none;
+    padding: 15px;
+    font-size: 15px;
+    padding: auto;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: lightsalmon;
+    font-size: 16px;
+} 
+
+ul li button{
+    color: red;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+/* for delete all data button */
+#deletebutton{
+    font-size: medium;
+    font-weight: 100;
+    border: 2px dotted orangered;
+    border-radius: 10px;
+}
